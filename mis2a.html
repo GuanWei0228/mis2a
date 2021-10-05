@@ -14,11 +14,15 @@
 			color: #55ff55; }
 	</style>
 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
 </head>
 <body>
-	<main>	
+	<main class="container-fluid bg-success text-white text-center">	
 		<nav>
-			<ul>
+			<ul >
 				<li><a href="aboutme">關於我</a></li>
 				<li><a href="youtube">推薦影片</a></li>
 				<li><a href="bookmark">珍藏書籤</a></li>
@@ -28,12 +32,13 @@
 		<img src="pu.jpg" alt="照片">
 		<br><br><br>
 
+		<div class="row">
 		<nav>
-			<h1><a herf="https://github.com/GuanWei0228">黃冠維</a></h1>
+			<h1><a href="https://github.com/GuanWei0228/mis2a" >黃冠維</a></h1>
 			<h2>資管二A</h2>
 		</nav>
 
-		<session id="aboutme">
+		<session id="aboutme" class="col-lg-4">
 			<header>關於我</header>
 
 			<h3>就讀學校:靜宜大學資訊管理學系二年級A班</h3>
@@ -41,15 +46,17 @@
 			<h3>行動電話:<a herf="tel:0979281322">0979281322</a></h3>
 		</session>
 
-		<article id="youtube">
+		<article id="youtube" class="col-lg-4">
 			<header>推薦影片</header>
 			<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
 		</article>
 
-		<aside id="bookmark">
+		<aside id="bookmark" class="col-lg-4">
 			<header>珍藏書籤</header>
 			<h3>00</h3>
 		</aside>
+
+		</div><br><br>
 
 		<footer>
 			<h3>Copyright @ 黃冠維. All Rights Reserved.</h3>
